@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you :3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="static/icon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body onclick="PlayAudio()">
+    <audio id="bgm" autoplay loop>
+        <source src="static/Bgm.mp3" type="audio/mpeg">
+        
+    </audio>
+
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy</br> Valentine's</br> Day</div>
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+    <div class="shadow"></div>
+    </div>
+    <script> 
+        function PlayAudio() {
+            var audioElement = document.getElementById("bgm");
+
+// Establecer el volumen deseado (rango de 0 a 1)
+            audioElement.volume = 0.005; // Puedes ajustar el volumen según tus necesidades
+
+// Iniciar la reproducción
+            audioElement.play();yId("bgm").play();
+            
+    }</script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
